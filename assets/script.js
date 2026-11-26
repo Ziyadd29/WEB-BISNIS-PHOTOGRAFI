@@ -579,7 +579,7 @@ function handleBookingSubmit(event) {
     `*DP (30%):* ${formatRupiah(dpAmount)}\n\n` +
     `Mohon info ketersediaan jadwalnya. Terima kasih!`;
 
-  const adminPhone = '6281234567890';
+  const adminPhone = '6282141317789';
   document.getElementById('wa-confirm-link').href = `https://wa.me/${adminPhone}?text=${encodeURIComponent(waMessage)}`;
 
   document.getElementById('order-modal').classList.remove('hidden');
